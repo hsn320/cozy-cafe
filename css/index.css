@@ -58,7 +58,7 @@ h1 img{
 .header-inner nav ul{
     display: flex;
     gap: 20px;
-    padding: 0 20px;
+    padding: 0 5px;
     margin: 0;
     justify-content: flex-end;
     width: auto;
@@ -71,7 +71,16 @@ h1 img{
     display: inline-block;
     line-height: 1;
     margin: 0;
-    padding: 0;
+    padding: 5px;
+}
+.header-inner nav ul li a:link,
+.header-inner nav ul li a:visited{
+    color: #3C2F22;
+}
+.header-inner nav ul li a:hover{
+    background: #D4C1A8;
+    color: #2A1F16;
+    border-radius: 40px;
 }
 .header-image{
     width: 100%;
