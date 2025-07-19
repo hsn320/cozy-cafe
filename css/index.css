@@ -140,8 +140,60 @@ main{
     background: #E3D5C4;
 }
 .about-button a{
-    display: inline-block;
+    display: block;
     color: #3C2F22;
-    font-size: 18px;
-    padding: 0 20px;
+}
+.section-bg{
+    background: url("../images/back_section.png");
+    width: 100vw;
+    margin-top: 100px;
+    margin-left: calc(-50vw + 50%);
+}
+.section-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.section-title{
+    text-align: center;
+    margin: 50px 0 25px;
+}
+.news-container{
+    max-width: 900px;
+    height: 350px;
+    margin: 0 auto 50px;
+    background: #F5F0EB;
+    border-radius: 25px;
+    text-align: center;
+}
+.news-inner{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 100px;
+    justify-content: center;
+    padding: 50px 0 20px;
+}
+.news-items{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.news-items .news-item{
+    display: flex;
+    gap: 60px;
+}
+.news-container .news-button{
+    align-self: flex-end;
+    margin-top: 10px;
+    margin-right: 40px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 10px;
+    background: #E3D5C4;
+}
+.news-container .news-button a{
+    display: block;
+    color: #3C2F22;
 }
