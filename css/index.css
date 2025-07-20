@@ -143,6 +143,11 @@ main{
     display: block;
     color: #3C2F22;
 }
+.about-button a:hover{
+    background: #D4C1A8;
+    color: #2A1F16;
+    border-radius: 10px;
+}
 .section-bg{
     background: url("../images/back_section.png");
     width: 100vw;
@@ -197,6 +202,11 @@ main{
     display: block;
     color: #3C2F22;
 }
+.news-container .news-button a:hover{
+    background: #D4C1A8;
+    color: #2A1F16;
+    border-radius: 10px;
+}
 .shop-container{
     display: flex;
     justify-content: center;
@@ -234,8 +244,8 @@ main{
     margin-left: 250px;
     margin-top: 30px;
     width: 170px;
-    height: 30px;
-    line-height: 30px;
+    height: 35px;
+    line-height: 35px;
     text-align: center;
     border-radius: 10px;
     background: #E3D5C4;
@@ -243,6 +253,11 @@ main{
 .shop-details .reserve-btn a{
     display: block;
     color: #3C2F22;
+}
+.shop-details .reserve-btn a:hover{
+    background: #D4C1A8;
+    color: #2A1F16;
+    border-radius: 10px;
 }
 .footer-container{
     background: url("../images/back_section.png");
@@ -284,9 +299,12 @@ main{
 .footer-container .footer-nav-item a{
     color: #3C2F22;
 }
+.footer-container .footer-nav-item a:hover{
+    color: #8B5E3C;
+}
 .footer-container .footer-sns{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-self: flex-end;
 }
 .footer-container .footer-sns a img{
