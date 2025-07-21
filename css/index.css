@@ -260,10 +260,10 @@ main{
     border-radius: 10px;
 }
 .footer-container{
-    background: url("../images/back_section.png");
-    height: 350px;
+    background: #E3D5C4;
+    height: auto;
     margin-top: 100px;
-    padding: 30px;
+    padding: 80px;
     display: flex;
     align-items: center;
 }
@@ -289,6 +289,7 @@ main{
 .footer-container .footer-items{
     display: flex;
     gap: 55px;
+    flex-wrap: wrap;
 }
 .footer-container .footer-nav-item ul{
     padding-left: 2em;
@@ -298,6 +299,7 @@ main{
 }
 .footer-container .footer-nav-item a{
     color: #3C2F22;
+    white-space: nowrap;
 }
 .footer-container .footer-nav-item a:hover{
     color: #8B5E3C;
