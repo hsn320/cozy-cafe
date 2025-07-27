@@ -134,3 +134,23 @@ about_nav .btn-price{
     background: #E3D5C4;
     color: #3C2F22;
 }
+#system{
+    text-align: center;
+    padding: 45px 0 100px;
+}
+#system .step-box-container{
+    display: flex;
+    justify-content: center;
+}
+#system p{
+    padding: 35px 0;
+}
+#sheet{
+    text-align: center;
+}
+#review{
+    text-align: center;
+}
+#price{
+    text-align: center;
+}
