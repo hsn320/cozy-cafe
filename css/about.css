@@ -90,3 +90,23 @@ h1 img{
     margin-top: 90px;
     z-index: 1;
 }
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    scroll-behavior: smooth;
+}
+about_nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+about_nav a{
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 10px;
+    background: #E3D5C4;
+    color: #3C2F22;
+}
