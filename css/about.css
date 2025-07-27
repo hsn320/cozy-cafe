@@ -93,7 +93,7 @@ h1 img{
 main{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 35px;
     scroll-behavior: smooth;
 }
 about_nav{
@@ -102,11 +102,35 @@ about_nav{
     gap: 30px;
     text-align: center;
 }
-about_nav a{
-    width: 200px;
+about_nav .btn-system{
+    width: 180px;
     height: 35px;
     line-height: 35px;
-    border-radius: 10px;
+    border-radius: 40px;
+    background: #E3D5C4;
+    color: #3C2F22;
+}
+about_nav .btn-sheet{
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 40px;
+    background: #E3D5C4;
+    color: #3C2F22;
+}
+about_nav .btn-review{
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 40px;
+    background: #E3D5C4;
+    color: #3C2F22;
+}
+about_nav .btn-price{
+    width: 220px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 40px;
     background: #E3D5C4;
     color: #3C2F22;
 }
