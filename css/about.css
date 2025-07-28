@@ -93,7 +93,7 @@ h1 img{
 main{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 35px;
+    padding: 40px;
     scroll-behavior: smooth;
 }
 about_nav{
@@ -136,17 +136,40 @@ about_nav .btn-price{
 }
 #system{
     text-align: center;
-    padding: 45px 0 100px;
+    padding: 50px 0 0;
 }
 #system .step-box-container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#system .step-box-container .step-box{
+    background: #F5F0EB;
+    border: solid 5px #E3D5C4;
+    border-radius: 25px;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+}
+.step-box-container .arrow-right{
+    background: #E3D5C4;
+    width: 40px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 35px;
 }
 #system p{
     padding: 35px 0;
 }
 #sheet{
     text-align: center;
+}
+.section-bg{
+    background: url("../images/back_section.png");
+    width: 100vw;
+    margin-top: 100px;
+    margin-left: calc(-50vw + 50%);
 }
 #review{
     text-align: center;
