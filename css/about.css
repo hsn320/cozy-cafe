@@ -162,7 +162,7 @@ about_nav .btn-price{
 #system p{
     padding: 35px 0;
 }
-#sheet{
+#sheet h2,#sheet .text{
     text-align: center;
 }
 .section-bg{
@@ -170,6 +170,68 @@ about_nav .btn-price{
     width: 100vw;
     margin-top: 100px;
     margin-left: calc(-50vw + 50%);
+}
+.sheet-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.section-bg h2{
+    padding: 40px 0 30px;
+}
+.sheet-inner{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.question{
+    background: #F5F0EB;
+    width: 400px;
+    height: 260px;
+    border-radius: 25px;
+    margin-top: 50px;
+    padding: 30px 40px;
+}
+.question-title{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.question .question-title img{
+    width: 40px;
+    height: auto;
+}
+.question .question-inner{
+    line-height: 1.7em;
+}
+.Q-A{
+    background: #F5F0EB;
+    width: 400px;
+    height: 260px;
+    border-radius: 25px;
+    margin-top: 50px;
+    padding: 30px 40px;
+}
+.Q-A-title{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.Q-A-title img{
+    width: 40px;
+    height: auto;
+}
+.Q-A .Q-A-inner{
+    line-height: 1.7em;
+}
+.Q-A .Q-A-inner span{
+    display: block;
+    margin-left: 8em;
+}
+.Q-A .Q-A-inner .A{
+    text-indent: 2em;
 }
 #review{
     text-align: center;
