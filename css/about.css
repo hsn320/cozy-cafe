@@ -236,6 +236,40 @@ about_nav .btn-price{
 #review{
     text-align: center;
 }
+#review h2{
+    padding: 100px 0 50px;
+}
+.review-inner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 90px;
+}
+#review img{
+    width: auto;
+    height: 350px;
+    border-radius: 25px;
+}
+#review .text{
+    text-align: left;
+}
+#review h3{
+    padding-bottom: 15px;
+}
+#review .text p{
+    line-height: 1.3em;
+    padding-bottom: 15px;
+}
+#review .text p span{
+    display: block;
+    margin-left: 1em;
+}
+#review .text p .text-indent{
+    display: block;
+    margin-left: 13em;
+}
 #price{
     text-align: center;
 }
