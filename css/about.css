@@ -338,6 +338,21 @@ about_nav .btn-price{
     display: block;
     color: #3C2F22;
 }
+.alert{
+    text-align: center;
+}
+.alert h3{
+    padding: 100px 0 30px;
+}
+.alert .text{
+    background: #E3D5C4;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 25px;
+    width: 700px;
+    height: 100px;
+    line-height: 2em;
+}
 .footer-container{
     background: #E3D5C4;
     height: auto;
