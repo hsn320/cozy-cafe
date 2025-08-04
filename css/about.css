@@ -290,6 +290,7 @@ about_nav .btn-price{
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
+    flex-wrap: wrap;
 }
 #price span{
     display: block;
@@ -301,5 +302,93 @@ about_nav .btn-price{
     height: 300px;
     border-radius: 25px;
     margin: 0 auto;
+    padding: 40px 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+#price .price-plan .column{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5em;
+    height: 100%;
+}
+#price .price-plan .column .line{
+    display:block;
+    padding-top:3px;
+    line-height: 1em;
+}
+#price .price-plan .column:first-child{
+    border-right: 2px solid #000;
+}
+#price .price-container .menu-btn{
+    margin: 30px 0 10px 800px;
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background: #F5F0EB;
+}
+#price .price-container .menu-btn a{
+    display: block;
+    color: #3C2F22;
+}
+.footer-container{
+    background: #E3D5C4;
+    height: auto;
+    margin-top: 100px;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+}
+.footer-container .footer-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+.footer-container .footer-logo{
+    display: flex;
+}
+.footer-container .footer-logo img{
+    width: 170px;
+}
+.footer-container .footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-container .footer-items{
+    display: flex;
+    gap: 55px;
+    flex-wrap: wrap;
+}
+.footer-container .footer-nav-item ul{
+    padding-left: 2em;
+}
+.footer-container .footer-nav-item li{
+    list-style-type: disc;
+}
+.footer-container .footer-nav-item a{
+    color: #3C2F22;
+    white-space: nowrap;
+}
+.footer-container .footer-nav-item a:hover{
+    color: #8B5E3C;
+}
+.footer-container .footer-sns{
+    display: flex;
+    gap: 10px;
+    align-self: flex-end;
+}
+.footer-container .footer-sns a img{
+    width: 30px;
+    height: 30px;
 }
