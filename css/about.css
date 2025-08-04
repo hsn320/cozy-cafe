@@ -94,7 +94,6 @@ main{
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px;
-    scroll-behavior: smooth;
 }
 about_nav{
     display: flex;
@@ -406,4 +405,7 @@ about_nav .btn-price{
 .footer-container .footer-sns a img{
     width: 30px;
     height: 30px;
+}
+html{
+    scroll-behavior: smooth;
 }

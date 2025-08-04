@@ -313,3 +313,6 @@ main{
     width: 30px;
     height: 30px;
 }
+html{
+    scroll-behavior: smooth;
+}
