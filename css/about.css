@@ -141,7 +141,7 @@ about_nav .btn-price{
 #system .step-box-container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 #system .step-box-container .step-box{
@@ -150,7 +150,22 @@ about_nav .btn-price{
     border-radius: 25px;
     width: 350px;
     height: 350px;
-    padding: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#system .step-box h3{
+    margin: 0 0 10px;
+    align-self: flex-start;
+}
+#system .step-box .system-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#system p{
+    padding: 20px 0 35px;
 }
 .step-box-container .arrow-right{
     background: #E3D5C4;
@@ -158,9 +173,7 @@ about_nav .btn-price{
     height: 35px;
     line-height: 35px;
     border-radius: 35px;
-}
-#system p{
-    padding: 35px 0;
+    align-self: center;
 }
 #sheet h2,#sheet .text{
     text-align: center;
@@ -245,7 +258,7 @@ about_nav .btn-price{
     align-items: center;
     justify-content: center;
     gap: 80px;
-    padding-bottom: 90px;
+    padding-bottom: 50px;
 }
 #review img{
     width: auto;
@@ -272,4 +285,21 @@ about_nav .btn-price{
 }
 #price{
     text-align: center;
+}
+#price .price-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+#price span{
+    display: block;
+    padding: 25px 0;
+}
+#price .price-plan{
+    background: #F5F0EB;
+    width: 700px;
+    height: 300px;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: flex;
 }
