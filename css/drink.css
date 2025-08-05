@@ -127,7 +127,7 @@ h2{
     align-items: center;
     justify-content: center;
     height: 100%;
-    line-height: 2.9em;
+    line-height: 2.7em;
 }
 .menu .column .line{
     display:block;
@@ -135,6 +135,44 @@ h2{
     line-height: 1em;
 }
 .menu .column:first-child{
+    border-right: 2px solid #000;
+}
+.menu-2{
+    background: #E3D5C4;
+    width: 700px;
+    height: 500px;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+.menu-2 .column{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5em;
+    height: 100%;
+}
+.menu-2 .column-2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    line-height: 2.6em;
+}
+.menu-2 .column .line{
+    display:block;
+    padding-top:3px;
+    line-height: 1em;
+}
+.menu-2 .column:first-child{
     border-right: 2px solid #000;
 }
 .footer-container{
