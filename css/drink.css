@@ -95,7 +95,7 @@ main{
     margin: 0 auto;
     padding: 30px;
 }
-h2{
+#coffee{
     text-align: center;
     padding: 100px 0 50px;
 }
@@ -136,6 +136,10 @@ h2{
 }
 .menu .column:first-child{
     border-right: 2px solid #000;
+}
+#tea{
+    text-align: center;
+    padding: 100px 0 50px;
 }
 .menu-2{
     background: #E3D5C4;
