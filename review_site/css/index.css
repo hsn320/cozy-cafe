@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    padding: 16px;
+    max-width: 430px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1 img{
+    width: 40px;
+    height: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+header ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+header ul li img{
+    width: 30px;
+    height: auto;
+}
