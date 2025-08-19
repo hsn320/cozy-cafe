@@ -24,12 +24,14 @@ h1 img{
 }
 header{
     position: fixed;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     background: #fff;
+    display: flex;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 70px;
+    height: 60px;
     padding: 10px;
 }
 header ul{
@@ -43,6 +45,9 @@ header ul li img{
 }
 main{
     padding: 90px 20px 20px;
+}
+p{
+    font-size: 14px;
 }
 .title{
     margin-bottom: 10px;
