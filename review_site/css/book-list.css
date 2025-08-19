@@ -53,7 +53,7 @@ main{
 }
 .breadcrumb{
     font-size: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .breadcrumb a{
     color: #000;
@@ -64,4 +64,22 @@ main{
 .breadcrumb a:focus{
     -webkit-tap-highlight-color: transparent;
     background: #fff;
+}
+.book-item p{
+    font-size: 10px;
+}
+.book-items{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.book-item .book-info{
+    display: flex;
+    gap: 5px;
+}
+.book-item .title{
+    padding-top: 5px;
+    font-size: 12px;
 }
