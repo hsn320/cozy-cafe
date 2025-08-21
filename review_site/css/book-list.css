@@ -20,6 +20,14 @@ li{
 a{
     text-decoration: none;
 }
+a:focus,
+a:active,
+button:focus,
+button:active {
+    outline: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent; /* スマホ特有の水色エフェクト対策 */
+}
 .account-icon img{
     width: 35px;
     height: auto;
