@@ -115,3 +115,42 @@ main{
 .talk .talk-text{
     font-size: 16px;
 }
+.talk-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #fff;
+    border-top: 1px solid #3c2f21;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+.talk-input img{
+    width: 30px;
+    height: auto;
+}
+.text-input{
+    padding: 5px;
+    border: 1px solid #3c2f21;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 70%;
+}
+.send-button{
+    background: none;
+    border: none;
+    border-radius: 20px;
+    padding: 0;
+    cursor: pointer;
+    width: 30px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.send-button:hover{
+    background-color: #84705d;
+}
