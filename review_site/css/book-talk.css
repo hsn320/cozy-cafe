@@ -46,3 +46,72 @@ header img{
     width: 30px;
     height: auto;
 }
+main{
+    margin: 60px 0 60px;
+    padding: 30px;
+}
+.book-info{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.talk-message{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.talk-message img{
+    width: 30px;
+    height: auto;
+}
+.talk{
+    max-width: 90%;
+    position: relative;
+    background: #fdf2e7;
+    padding: 8px 12px 12px;
+    border-radius: 8px;
+    overflow: visible;
+    border: 2px solid #3c2f21;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.talk::before{
+    content: '';
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: -15px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent #3c2f21 transparent transparent;
+    margin-left: -2px;
+    z-index: 10;
+}
+.talk::after {
+    content: '';
+    position: absolute;
+    top: 11px;
+    left: -11px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent #fdf2e7 transparent transparent; /* 内側の色（背景） */
+    margin-left: -2px;
+    z-index: 11;
+}
+.talk-user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+.talk span{
+    font-size: 12px;
+    color: #F4BF00;
+}
+.talk .talk-text{
+    font-size: 16px;
+}
