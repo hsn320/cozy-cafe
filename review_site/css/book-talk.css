@@ -7,6 +7,7 @@ body{
     overflow-x: hidden;
     max-width: 430px;
     font-family: serif;
+    color: #3c2f21;
 }
 img{
     max-width: 100%;
@@ -74,7 +75,7 @@ main{
 .talk{
     max-width: 90%;
     position: relative;
-    background: #fdf2e7;
+    background: #fffefd;
     padding: 8px 12px 12px;
     border-radius: 8px;
     overflow: visible;
@@ -100,7 +101,7 @@ main{
     left: -11px;
     border-width: 7px;
     border-style: solid;
-    border-color: transparent #fdf2e7 transparent transparent; /* 内側の色（背景） */
+    border-color: transparent #fffefd transparent transparent; /* 内側の色（背景） */
     margin-left: -2px;
     z-index: 11;
 }
