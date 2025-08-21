@@ -6,6 +6,7 @@
 body{
     overflow-x: hidden;
     max-width: 430px;
+    font-family: serif;
 }
 img{
     max-width: 100%;

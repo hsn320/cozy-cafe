@@ -6,6 +6,7 @@
 body{
     overflow-x: hidden;
     max-width: 430px;
+    font-family: serif;
 }
 img{
     max-width: 100%;
@@ -17,6 +18,9 @@ li{
 }
 a{
     text-decoration: none;
+}
+a:visited{
+    color: #3c2f21;
 }
 h1 img{
     width: 35px;
@@ -52,6 +56,7 @@ main{
 }
 p{
     font-size: 18px;
+    color: #3c2f21;
 }
 .title{
     margin-bottom: 10px;
@@ -64,6 +69,10 @@ p{
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+}
+.book img{
+    width: auto;
+    height: 150px;
 }
 .book a:hover{
     color: #84705d;
