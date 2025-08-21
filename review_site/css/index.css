@@ -83,10 +83,16 @@ p{
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    white-space: nowrap;
 }
-.book img{
-    width: auto;
-    height: 150px;
+.book .bookImg{
+    display: block;
+    flex-shrink: 0;
+}
+.book .bookImg img{
+    width: 120px;
+    height: 180px;
+    display: block;
 }
 .book a:hover{
     color: #84705d;
