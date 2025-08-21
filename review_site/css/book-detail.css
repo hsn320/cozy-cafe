@@ -118,6 +118,10 @@ main{
 .review p{
     font-size: 15px;
 }
+.review summary{
+    font-weight: bold;
+    color: #a00;
+}
 .review .review-actions{
     display: flex;
     gap: 5px;
