@@ -56,7 +56,10 @@ main{
     align-items: center;
     font-size: 18px;
     font-weight: bold;
-    padding-bottom: 30px;
+    padding: 0 0 30px 70px;
+}
+.book-info .book-details span{
+    color: #F4BF00;
 }
 .talk-message{
     display: flex;
