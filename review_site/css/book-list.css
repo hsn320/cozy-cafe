@@ -32,11 +32,11 @@ header{
     left: 0;
     width: 100%;
     height: 60px;
-    padding: 10px;
+    padding: 20px;
     z-index: 1000;
 }
 header p{
-    font-size: 14px;
+    font-size: 20px;
 }
 header ul{
     display: flex;
@@ -48,11 +48,11 @@ header ul li img{
     height: auto;
 }
 main{
-    margin-top: 60px;
-    padding: 5px 20px;
+    margin: 60px 0 60px;
+    padding: 5px 30px;
 }
 .breadcrumb{
-    font-size: 10px;
+    font-size: 14px;
     margin-bottom: 40px;
 }
 .breadcrumb a{
@@ -66,7 +66,7 @@ main{
     background: #fff;
 }
 .book-item p{
-    font-size: 10px;
+    font-size: 14px;
 }
 .book-items{
     display: flex;
@@ -75,13 +75,17 @@ main{
     flex-wrap: wrap;
     padding-bottom: 30px;
 }
+.book-items img{
+    width: 100%;
+    height: auto;
+}
 .book-item .book-info{
     display: flex;
     gap: 5px;
 }
 .book-item .title{
     padding-top: 5px;
-    font-size: 12px;
+    font-size: 16px;
 }
 .bottom-nav{
     position: fixed;
