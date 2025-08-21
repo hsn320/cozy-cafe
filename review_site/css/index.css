@@ -22,9 +22,17 @@ a{
 a:visited{
     color: #3c2f21;
 }
-h1 img{
+.account-icon img{
     width: 35px;
     height: auto;
+}
+h1{
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-weight: bold;
 }
 header{
     position: fixed;
@@ -37,6 +45,12 @@ header{
     width: 100%;
     height: 60px;
     padding: 20px;
+}
+.account-icon,
+nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 header p{
     font-size: 20px;
@@ -87,6 +101,7 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-top: 1px solid #3c2f21;
 }
 .bottom-nav img{
     width: 30px;

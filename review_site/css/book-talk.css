@@ -19,7 +19,7 @@ li{
 a{
     text-decoration: none;
 }
-h1 img{
+.return img{
     width: 30px;
     height: auto;
 }
@@ -39,8 +39,8 @@ header{
 header a:focus{
     -webkit-tap-highlight-color: transparent;
 }
-header p{
-    font-size: 20px;
+h1{
+    font-size: 18px;
 }
 header img{
     width: 30px;
