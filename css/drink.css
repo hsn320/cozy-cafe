@@ -7,6 +7,7 @@ body{
     overflow-x: hidden;
     background: url("../images/back_img.png");
     color: #3C2F22;
+    font-family: serif;
 }
 img{
     max-width: 100%;
