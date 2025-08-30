@@ -43,6 +43,9 @@ h1{
     font-size: 18px;
     font-weight: bold;
 }
+h1 a:visited{
+    color: #3c2f21;
+}
 header{
     position: fixed;
     justify-content: space-between;
@@ -104,6 +107,9 @@ p{
     display: block;
 }
 .book a:hover{
+    color: #84705d;
+}
+.arrow{
     color: #84705d;
 }
 .bottom-nav{

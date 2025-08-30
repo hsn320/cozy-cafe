@@ -26,7 +26,7 @@ button:focus,
 button:active {
     outline: none;
     box-shadow: none;
-    -webkit-tap-highlight-color: transparent; /* スマホ特有の水色エフェクト対策 */
+    -webkit-tap-highlight-color: transparent;
 }
 .return img{
     width: 30px;
@@ -50,6 +50,9 @@ header a:focus{
 }
 h1{
     font-size: 18px;
+}
+h1 a:visited{
+    color: #3c2f21;
 }
 header img{
     width: 30px;

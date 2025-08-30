@@ -51,6 +51,9 @@ header a:focus{
 h1{
     font-size: 18px;
 }
+h1 a:visited{
+    color: #3c2f21;
+}
 header img{
     width: 30px;
     height: auto;
@@ -66,6 +69,9 @@ main{
     font-size: 18px;
     font-weight: bold;
     padding: 0 0 30px 70px;
+}
+.book-info img{
+    width: 120px;
 }
 .book-info .book-details span{
     color: #F4BF00;
