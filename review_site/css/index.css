@@ -29,7 +29,7 @@ button:focus,
 button:active {
     outline: none;
     box-shadow: none;
-    -webkit-tap-highlight-color: transparent; /* スマホ特有の水色エフェクト対策 */
+    -webkit-tap-highlight-color: transparent;
 }
 .account-icon img{
     width: 35px;
@@ -57,12 +57,16 @@ header{
     width: 100%;
     height: 60px;
     padding: 20px;
+    z-index: 1000;
 }
 .account-icon,
 nav{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+header a:focus{
+    -webkit-tap-highlight-color: transparent;
 }
 header p{
     font-size: 20px;
