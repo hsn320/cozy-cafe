@@ -183,6 +183,19 @@ main{
 .menu-2 .column:first-child{
     border-right: 2px solid #000;
 }
+#Top{
+    display: none;
+    position: fixed;
+    bottom: 65px;
+    right: 65px;
+    padding: 10px 15px;
+    background: #3C2F22;
+    color: #E3D5C4;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    z-index: 1000;
+}
 .footer-container{
     background: #E3D5C4;
     height: auto;

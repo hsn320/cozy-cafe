@@ -19,12 +19,6 @@ window.addEventListener('load', () => {
 
 
 
-
-
-
-
-
-
 const headerImage = document.querySelector('.headerImage');
 const images = document.querySelectorAll('.headerImage img');
 const prevBtn = document.querySelector('.prev');
@@ -110,4 +104,20 @@ window.addEventListener('load', () => {
 window.addEventListener('resize', () => {
   updateSlideWidth();
   setInitialPosition();
+});
+
+
+
+const TopBtn = document.getElementById('Top');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) { 
+    TopBtn.style.display = 'block';
+    } else {
+    TopBtn.style.display = 'none';
+    }
+});
+
+TopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
