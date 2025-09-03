@@ -1,4 +1,30 @@
 console.log("JSが読み込まれています");
+window.addEventListener('load', () => {
+  const splash = document.getElementById('splash');
+
+  if (!sessionStorage.getItem('visited')) {
+    splash.classList.add('show'); 
+  }
+
+  splash.addEventListener('click', () => {
+    splash.classList.add('hidden');
+    sessionStorage.setItem('visited', 'true');
+    initSlider();
+  });
+
+  if (sessionStorage.getItem('visited')) {
+    initSlider();
+  }
+});
+
+
+
+
+
+
+
+
+
 const headerImage = document.querySelector('.headerImage');
 const images = document.querySelectorAll('.headerImage img');
 const prevBtn = document.querySelector('.prev');
@@ -54,11 +80,11 @@ function prevSlide() {
   showSlide();
 }
 
-let autoSlide = setInterval(nextSlide, 3500);
+let autoSlide = setInterval(nextSlide, 4000);
 
 function resetAutoSlide() {
   clearInterval(autoSlide);
-  autoSlide = setInterval(nextSlide, 3500);
+  autoSlide = setInterval(nextSlide, 4000);
 }
 
 nextBtn.addEventListener("click", () => {
