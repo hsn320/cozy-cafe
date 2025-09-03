@@ -91,6 +91,11 @@ h1 img{
     margin-top: 90px;
     z-index: 1;
 }
+.header-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
 main{
     max-width: 1200px;
     margin: 0 auto;
